@@ -13,7 +13,7 @@
 a=$1
 b=$2
 echo $((a*b))
-
+#
 ## Test Case ##
 test1 = run_shell args: [3,4]
 a=rand(0..100)
