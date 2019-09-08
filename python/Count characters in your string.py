@@ -1,6 +1,6 @@
 # Title: Count characters in your string
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # The main idea is to count all the occuring characters(UTF-8) in string. If you have string like this aba then the result should be { 'a': 2, 'b': 1 }

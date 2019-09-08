@@ -1,6 +1,6 @@
 # Title: Build Tower
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Build Tower by the following given argument:

@@ -1,6 +1,6 @@
 # Title: Delete occurences of an element if it occurs more than n times
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Enough is enough!

@@ -1,6 +1,6 @@
 # Title: Sudoku Solution Validator
 # Rank: 4 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Sudoku Background

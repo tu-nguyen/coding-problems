@@ -1,6 +1,6 @@
 # Title: Bit Counting
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.

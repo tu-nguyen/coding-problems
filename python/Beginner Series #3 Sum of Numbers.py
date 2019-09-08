@@ -1,7 +1,6 @@
 # Title: Beginner Series #3 Sum of Numbers
 # Rank: 7 kyu
-# Language Version: Python 3.4.3
-
+# Language Version: Python 3.6.0
 ## Instructions ##
 # Given two integers a and b, which can be positive or negative, find the sum of all the numbers between including them too and return it. If the two numbers are equal return a or b.
 # Note: a and b are not ordered!

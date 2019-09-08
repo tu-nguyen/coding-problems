@@ -1,6 +1,6 @@
 # Title: Moving Zeros To The End
 # Rank: 5 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.

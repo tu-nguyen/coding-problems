@@ -1,6 +1,6 @@
 # Title: Product of consecutive Fib numbers
 # Rank: 5 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # The Fibonacci numbers are the numbers in the following integer sequence (Fn):

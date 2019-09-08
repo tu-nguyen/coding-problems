@@ -1,6 +1,6 @@
 # Title: Find the odd int
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Given an array, find the int that appears an odd number of times.

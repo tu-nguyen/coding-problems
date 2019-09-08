@@ -1,6 +1,6 @@
 # Title: Friend or Foe?
 # Rank: 7 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Make a program that filters a list of strings and returns a list with only your friends name in it.

@@ -1,6 +1,6 @@
 # Title: Multiply
 # Rank: 8 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # The code does not execute properly. Try to figure out why.

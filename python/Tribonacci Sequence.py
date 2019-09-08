@@ -1,6 +1,6 @@
 # Title: Tribonacci Sequence
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Well met with Fibonacci bigger brother, AKA Tribonacci.

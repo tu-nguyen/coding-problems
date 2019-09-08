@@ -1,6 +1,6 @@
 # Title: Replace With Alphabet Position
 # Rank: 6 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Welcome.

@@ -1,6 +1,6 @@
 # Title: Exes and Ohs
 # Rank: 7 kyu
-# Language Version: Python 3.4.3
+# Language Version: Python 2.7.6
 
 ## Instructions ##
 # Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.

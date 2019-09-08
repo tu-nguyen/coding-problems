@@ -1,6 +1,6 @@
 # Title: Where my anagrams at?
 # Rank: 5 kyu
-# Language Version:
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # What is an anagram? Well, two words are anagrams of each other if they both contain the same letters. For example:
