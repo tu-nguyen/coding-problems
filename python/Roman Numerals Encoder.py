@@ -44,35 +44,34 @@ def solution(n):
         print(i)
         if int(i) == 1000:
             res = "M" 
-        elif int(i) > 1000:
-            res = ""
-        elif int(i) == 900:
-            res = res + "CM"
         else:
-            if int(i) == 100:
-                res = res + "C" 
+            if int(i) == 900:
+                res = res + "CM"
             elif int(i) >= 500:
                 res = res + "D" + "C" * int(((int(i) - 500)/100))
-            elif int(i) < 100:
+            elif int(i) < 500 and int(i) >= 100:
                 res = res + "C" * int(((int(i))/100)) + "D"
-            elif int(i) == 90:
-                res = res + "XC" * int((int(i)/100))
             else:
-                if int(i) == 10:
-                    res = res + "X" 
-                elif int(i) > 10:
-#                     res = res + "L" + "X" * int(((int(i) - 50)/10))
-                    res = res + "X" * int(int(i)/10)
-                elif int(i) == 9:
-                    res = res + "IX" * int((int(i)/10))
+                if int(i) == 90:
+                    res = res + "XC"
+                elif int(i) >= 50:
+                    res = res + "L" + "X" * int(((int(i) - 50)/10))
+                elif int(i) < 50 and int(i) >= 10:
+                    res = res + "X" * int(((int(i))/10)) + "L"
                 else:
-                    if int(i) == 1:
-                        res = res + "I" 
-                    elif int(i) > 1:
-                        res = res + "X" + "I" * int(((int(i) - 5)/1))
-                    
-    
-    
+                    if int(i) == 9:
+                        print("case 1")
+                        res = res + "IX"
+                    elif int(i) >= 5:
+                        print("case 2")
+                        res = res + "V" + "I" * int(((int(i) - 5)/1))
+                    elif int(i) < 5 and int(i) >= 4:
+                        print("case 4: ", i)
+                        res = res + "I" * int((int(i)/1)) + "V"
+                    elif int(i) < 0 and int(i) >= 3:
+                        print("case 5")
+                        res = res + "I" * (int(i))
+
     return res
 ## Test Case ##
 test.assert_equals(solution(1),'I', "solution(1),'I'")
