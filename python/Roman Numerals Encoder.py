@@ -28,7 +28,6 @@ def reverse(string):
 
 
 def split(word):
-    #     return [char for char in word]
     res = []
     z = len(word) - 1
     for i in word:
@@ -36,8 +35,8 @@ def split(word):
         z -= 1
     return res
 
-
-ro = {1: "I", 5: "V", 10: "X", 50: "L", 100: "C", 500: "D", 1000: "M"}
+# ro = { 1:"I", 5:"V", 10:"X", 50:"L", 100:"C", 500:"D", 1000:"M"}
+# will use on reattempt eventually
 
 
 def solution(n):
@@ -53,31 +52,29 @@ def solution(n):
             if int(i) == 900:
                 res = res + "CM"
             elif int(i) >= 500:
-                res = res + "D" + "C" * int(((int(i) - 500)/100))
+                res = res + "D" + "C" * int((int(i) - 500)/100)
             elif int(i) == 400:
-                res = res + "C" * int(((int(i))/100)) + "D"
-            elif int(i) <= 300 and int(i) > 99:
-                res = res + "C" * int(int(i)/10)
+                res = res + "CD"
+            elif int(i) < 400 and int(i) >= 100:
+                res = res + "C" * int(int(i)/100)
             else:
                 if int(i) == 90:
                     res = res + "XC"
                 elif int(i) >= 50:
-                    res = res + "L" + "X" * int(((int(i) - 50)/10))
+                    res = res + "L" + "X" * int((int(i) - 50)/10)
                 elif int(i) == 40:
                     res = res + "XL"
-                elif int(i) <= 30 and int(i) > 9:
+                elif int(i) < 40 and int(i) >= 10:
                     res = res + "X" * int(int(i)/10)
                 else:
                     if int(i) == 9:
-                        print("case 1")
                         res = res + "IX"
                     elif int(i) >= 5:
-                        print("case 2")
-                        res = res + "V" + "I" * int(((int(i) - 5)/1))
+                        res = res + "V" + "I" * int((int(i) - 5)/1)
                     elif int(i) == 4:
                         res = res + "IV"
-                    elif int(i) <= 3:
-                        res = res + "I" * int(i)
+                    elif int(i) < 4 and int(i) >= 1:
+                        res = res + "I" * int(int(i)/1)
     return res
 
 
