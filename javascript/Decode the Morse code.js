@@ -14,6 +14,9 @@
 decodeMorse = function(morseCode){
   code = morseCode.split(" ");
   
+  console.log(morseCode);
+  console.log(morseCode.length);
+  
   var i;
   var res = "";
   for (i = 0; i < code.length; i++) {
@@ -22,6 +25,7 @@ decodeMorse = function(morseCode){
       while (code[i + 1] == '') {
         i++;
       }
+    }
     else {
       res = res.concat(MORSE_CODE[code[i]]);
     }
