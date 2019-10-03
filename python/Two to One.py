@@ -1,5 +1,5 @@
 # Title: Two to One
-# Rank: 8 kyu 
+# Rank: 7 kyu 
 # Language Version: Python 3.4.3
 
 ## Instructions ##
