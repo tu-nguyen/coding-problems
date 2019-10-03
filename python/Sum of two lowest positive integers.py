@@ -1,6 +1,6 @@
 # Title: Sum of two lowest positive integers
 # Rank: 7 kyu
-# Language Version: Python 
+# Language Version: Python 3.6.0
 
 ## Instructions ##
 # Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
