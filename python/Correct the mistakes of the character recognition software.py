@@ -1,6 +1,6 @@
 # Title: Correct the mistakes of the character recognition software
 # Rank: 8 kyu
-# Language Version: Python 
+# Language Version: Python 3.4.3
 
 ## Instructions ##
 # Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
