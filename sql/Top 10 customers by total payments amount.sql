@@ -1,6 +1,6 @@
 -- Title: SQL Basics: Top 10 customers by total payments amount
 -- Rank: 6 kyu
--- Language Version: PostgreSQL 9.6
+-- Language Version: SQL PostgreSQL 9.6
 
 -- Instructions --
 -- For this kata we will be using the DVD Rental database.
